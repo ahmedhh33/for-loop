@@ -33,6 +33,10 @@ namespace for_loop
                 b++;
             } 
             while (b<=5);
+            int c = 1;
+            Console.WriteLine();
+            Console.WriteLine(c++);//post increment 1
+            Console.WriteLine(++c);//preincrement  3
         }
     }
 }
