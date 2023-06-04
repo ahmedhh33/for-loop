@@ -44,6 +44,17 @@ namespace for_loop
             Console.WriteLine(a+=3);
             Console.WriteLine(++f);
 
+
+            Console.WriteLine("printing odd numders between two numbers");
+            Console.WriteLine("Enter the vale of starting number = ");
+            int st = Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine("Enter the vale of ending number = ");
+            int en = Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine("******************");
+            for(int i = st ;i<=en ;i++)
+            {
+                Console.WriteLine((2*i)+1);
+            }
         }
     }
 }
