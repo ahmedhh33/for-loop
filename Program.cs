@@ -47,9 +47,9 @@ namespace for_loop
 
             Console.WriteLine("printing odd numders between two numbers");
             Console.WriteLine("Enter the vale of starting number = ");
-            int st = Convert.ToInt16(Console.ReadLine());
+            int st = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter the vale of ending number = ");
-            int en = Convert.ToInt16(Console.ReadLine());
+            int en = int.Parse(Console.ReadLine());
             Console.WriteLine("******************");
             for(int i = st ;i<=en ;i++)
             {
@@ -58,7 +58,17 @@ namespace for_loop
                 {
                     Console.WriteLine(i);
                 }
+
             }
+            int fact = 1;
+            Console.WriteLine("/n");
+            Console.WriteLine("Calculate Factor of : ");
+            int num = int.Parse(Console.ReadLine());
+            for ( int i = 1 ;i<=num ;i++)
+            {
+                fact = fact * i;
+            }
+            Console.Write("factoraial of " + num + " is " + fact);
         }
     }
 }
