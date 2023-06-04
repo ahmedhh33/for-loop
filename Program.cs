@@ -53,7 +53,11 @@ namespace for_loop
             Console.WriteLine("******************");
             for(int i = st ;i<=en ;i++)
             {
-                Console.WriteLine((2*i)+1);
+                //Console.WriteLine((2*i)+1);
+                if(i%2!=0)
+                {
+                    Console.WriteLine(i);
+                }
             }
         }
     }
