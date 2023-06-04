@@ -37,6 +37,13 @@ namespace for_loop
             Console.WriteLine();
             Console.WriteLine(c++);//post increment 1
             Console.WriteLine(++c);//preincrement  3
+
+            int f = 1;
+            Console.WriteLine();
+            f += 3;
+            Console.WriteLine(a+=3);
+            Console.WriteLine(++f);
+
         }
     }
 }
