@@ -26,6 +26,13 @@ namespace for_loop
                 Console.WriteLine(a);
                 a++;
             }
+            Console.WriteLine() ;
+            int b = 2;
+            do //start with the body
+            { Console.WriteLine(b);
+                b++;
+            } 
+            while (b<=5);
         }
     }
 }
